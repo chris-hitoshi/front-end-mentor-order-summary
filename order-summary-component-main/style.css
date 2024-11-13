@@ -1,0 +1,145 @@
+body {
+  background-image: url("./images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-color: hsl(225, 100%, 94%);
+  font-family: "Red Hat Display";
+}
+
+#hero-image {
+  width: 33vw;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.main-card {
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 33vw;
+  height: 80vh;
+  border-radius: 20px;
+  box-shadow: 10px 10px 100px rgba(56, 41, 224, 0.1882352941);
+}
+
+.content {
+  text-align: center;
+  text-wrap: true;
+  padding: 1vh 4vw;
+}
+
+.content h1 {
+  font-size: 24px;
+  color: hsl(223, 47%, 23%);
+}
+
+p {
+  font-size: 16px;
+  color: hsl(224, 23%, 55%);
+}
+
+.price-card {
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+  padding: 15px 20px;
+}
+
+.price-icon-details {
+  flex: 1;
+  display: flex;
+}
+
+.price-details p {
+  padding: 0;
+  margin: 0;
+}
+
+.price-details .title {
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+}
+
+#music-icon {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+#change-button {
+  text-decoration: underline;
+  color: hsl(245, 75%, 52%);
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+#change-button:hover {
+  text-decoration: none;
+  color: #766cf1;
+}
+
+button {
+  border: none;
+  border-radius: 10px;
+  font-weight: 900;
+  padding: 15px;
+  width: 100%;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.payment-button {
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  box-shadow: 10px 10px 50px rgba(56, 41, 224, 0.2588235294);
+  margin: 25px 0 15px 0;
+}
+
+.payment-button:hover {
+  background-color: #766cf1;
+}
+
+.cancel-button {
+  background-color: transparent;
+  color: hsl(224, 23%, 55%);
+}
+
+.cancel-button:hover {
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+}
+
+.attribution {
+  font-size: 20px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 375px) {
+  body {
+    background-image: url("./images/pattern-background-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-color: hsl(225, 100%, 94%);
+    font-family: "Red Hat Display";
+  }
+  #hero-image {
+    width: 80vw;
+    border-radius: 20px 20px 0px 0px;
+  }
+  .main-card {
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80vw;
+    height: 80vh;
+    border-radius: 20px;
+    box-shadow: 10px 10px 100px rgba(56, 41, 224, 0.1882352941);
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
